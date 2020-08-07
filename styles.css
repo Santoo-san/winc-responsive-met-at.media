@@ -1,0 +1,58 @@
+body {
+  background-image: linear-gradient(to right, red, yellow);
+  }
+  h1 {
+    color: yellow;
+    width: 80%;
+  }
+  p {
+    color: green;
+  }
+    .black-border {
+        border: 5px solid green;
+  }
+.lettertype { 
+    font-size: xx-large;
+    font-family: cursive;
+}
+  #green-background {
+    background-image: linear-gradient(to bottom right, green, black);
+}
+header {
+  border: 10px dotted black;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+main {
+  border: 5px solid orange;
+  margin: 50px;
+  padding: 100px;
+}
+section {
+  border: 3px palegreen;
+  margin: 10px;
+  padding: 10px;
+}
+nav {
+  border: 10px solid black;
+  padding-left: 10px;
+}
+.horizontaal li {
+  display:inline;
+}
+
+@media (min-width: 1024px){
+body { background-image: linear-gradient(to right, yellow, red);
+}
+h1 {
+  color: blueviolet;
+  font-size: x-small;
+}
+h2{
+  color: burlywood;
+}
+p {
+  color:blue;
+  line-height: 30px;
+}
